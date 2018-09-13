@@ -1,0 +1,77 @@
+.logo {
+    color: red;
+}
+
+nav a {
+    color: green;
+}
+
+nav a:visited {
+    color: #444;
+}
+
+.above-the-field .card {
+    color: white;
+}
+
+.above-the-field .card button {
+    background-color: lightgreen;
+    color: white;
+}
+
+article p::first-letter {
+    margin-left: 30px;
+}
+
+.blog {
+    background-color: #666;
+}
+
+.gallery figure:hover {
+    box-shadow: 5px 3px gray;
+}
+
+.gallery figcaption {
+    padding: 8px;
+}
+
+article {
+    margin-top: 40px;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.article-title {
+    text-align:ceter;
+}
+
+section h2 {
+    text-transform: uppercase;
+}
+
+.form-input{
+    display: block;
+    margin: 4vh;
+    padding: 8px;
+}
+
+footer {
+    background-color: rgb(128,128,128);
+    color: #feb236;
+}
+
+.form-input:focus {
+    border-width: 4px;
+}
+
+section h2::before {
+    content: ">";
+    margin-right: 4px;
+}
+
+.form-input[type="radio"] {
+    margin-left: 20px;
+    margin-right: 5px;
+}
+
